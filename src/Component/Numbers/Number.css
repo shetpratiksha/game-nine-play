@@ -1,0 +1,21 @@
+span{
+    display: inline-block;
+    margin: 0.25em;
+    text-align: center;
+    background-color: #ccc;
+    width:24px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.card .selected{
+    background-color: #eee;
+    color: #ddd;
+    cursor: not-allowed;
+}
+
+.card .used{
+    background-color: #aaddaa;
+    color: #99bb99;
+    cursor: not-allowed;
+}
